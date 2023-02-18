@@ -4,8 +4,8 @@
       diff-so-fancy.enable = true;
       lfs.enable = true;
 
-      userName = "pragdave";
-      userEmail = "dave@pragdave.me";
+      userName = "layeddie";
+      userEmail = "layeddie@gmail.com";
 
       extraConfig = {
         core = {
