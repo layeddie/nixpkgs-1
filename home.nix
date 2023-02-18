@@ -83,7 +83,7 @@ in
 */
 
     sessionVariables = {
-      THIS_IS_THE_REAL_ME = "dave";
+      THIS_IS_THE_REAL_ME = "ed";
       EDITOR = "nvim";
       CLICOLOR = "1";
       LSCOLORS = "gx";
@@ -112,6 +112,6 @@ in
     git    = import ./config/git.nix;
     kitty  = import ./config/kitty.nix { pkgs = pkgs; };
     neovim = import ./config/neovim.nix;
-    ssh    = import ./config/ssh.nix;
+    # ssh    = import ./config/ssh.nix;
   };
 }
